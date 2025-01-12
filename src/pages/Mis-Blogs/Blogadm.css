@@ -1,0 +1,67 @@
+.contenedorCard{
+    background-color: rgb(142, 142, 142);
+    margin: 50PX;
+    padding: 20PX;
+    border-radius: 25PX;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    box-shadow: 20px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen2{
+  width: 300px; 
+  height: 220px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-right: 50px;
+  border: 1px solid white;
+}
+
+.datos2{
+    width: 850px;
+    height: 250px;
+    display: flex;
+    flex-direction: column
+
+
+}
+
+.titulo2{
+    font-size: 50px;
+    margin: 0px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+
+}
+
+.marca2{
+    color: rgba(43, 43, 43, 0.652);
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.descripcion2{
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+
+.cajaboton{
+    margin: 120px;
+    display: flex;
+}
+
+.botoncito{
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botoncito:hover{
+    background-color: aliceblue;
+}

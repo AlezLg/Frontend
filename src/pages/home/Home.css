@@ -1,0 +1,8 @@
+.Cuadrado{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-inline: 20px;
+    
+}
+

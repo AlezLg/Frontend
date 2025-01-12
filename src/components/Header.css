@@ -1,0 +1,45 @@
+.Cabeza{
+    display: flex;
+    background-color: #000000e3;
+    margin: 0px;
+    min-height: 60px;
+    border-bottom: 2px  solid  rgba(255, 255, 255, 0.846);
+    max-height: 80px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.izquierda a{
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: background-color 2s ease;
+    text-decoration: none;
+}
+
+
+.izquierda a:hover{
+  background-color: #68a1e6;
+}
+
+
+.derecha a{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 1s ease;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.derecha a:hover{
+    background-color: #68a1e6;
+}

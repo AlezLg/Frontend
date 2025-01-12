@@ -1,0 +1,48 @@
+.contenedorCard2{
+    background-color: rgb(142, 142, 142);
+    margin: 25PX;
+    padding: 20PX;
+    border-radius: 25PX;
+    display: flex;
+    height: 65vh;
+    align-items: center;
+    box-shadow: 20px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen3{
+  width: 80vh; 
+  height: 60vh; 
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
+  border: 1px solid white;
+}
+
+.datos3{
+    width: 850px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.titulo3{
+    font-size: 100px;
+    margin: 0px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+
+}
+
+.marca3{
+    color: rgba(0, 0, 0, 0.511);
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.descripcion3{
+    margin-top: 50px;
+    font-size: 20px;
+}

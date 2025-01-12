@@ -1,0 +1,61 @@
+.Contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1cqmin;
+    flex-direction: column;
+    height: 500px;
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-bottom: 120px;
+    margin: 0px auto;
+    margin-top: 30px;
+    
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 70px;
+}
+
+
+.dato{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.dato:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.075);
+    border: none;
+    border-bottom: 2px solid rgb(255, 200, 152);
+    border-radius: 5px;
+}
+
+.register{
+    padding-top: 70px;
+}
+
+
+.register-boton{
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    padding-inline: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.register-boton:hover{
+    background-color: rgba(0, 0, 0, 0.219);
+}
